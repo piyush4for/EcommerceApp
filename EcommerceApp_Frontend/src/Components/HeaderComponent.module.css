@@ -1,0 +1,45 @@
+/* HeaderComponent.module.css */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  /* Additional header styles */
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  /* Additional styles for the left side of the header */
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  /* Additional styles for the logo */
+}
+
+.headerMiddle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* Additional styles for the middle of the header */
+}
+
+.searchBar {
+  width: 200px; /* Adjust the width as needed */
+  padding: 5px;
+  /* Additional styles for the search bar */
+}
+
+
+.profileIcon {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  /* Additional styles for the profile icon */
+}
+

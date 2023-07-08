@@ -1,0 +1,99 @@
+.attributesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .attributesContainer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .attributesContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .attributesContainer li {
+    margin-bottom: 10px;
+  }
+  
+  .attributesContainer form {
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .attributesContainer label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .attributesContainer input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .attributesContainer button[type='submit'] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .attributesContainer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .attributesContainer li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .attributesContainer .attrName {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .attributesContainer .attrValue {
+    color: #555;
+  }
+  .attributesContainer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .attributesContainer li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    justify-content: center;
+  }
+  
+  .attributesContainer .attrName {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .attributesContainer .attrValue {
+    color: #555;
+    max-width: 200px; /* Adjust the value as per your requirement */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  
+    
+  
