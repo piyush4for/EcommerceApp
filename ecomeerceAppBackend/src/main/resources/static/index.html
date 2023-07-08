@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function searchSubProducts() {
+    var searchTerm = document.getElementById("searchTerm").value;
+    var url = "/subproducts";
+    if (searchTerm) {
+        url += "?searchTerm=" + encodeURIComponent(searchTerm);
+    }
+    window.location.href = url;
+}
+</script>
+<body>
+    <h1>hi buddy</h1>
+    <div>
+        <input type="text" id="searchTerm" name="searchTerm" placeholder="Search">
+        <button onclick="searchSubProducts()">Search</button>
+    </div>
+</body>
+</html>
